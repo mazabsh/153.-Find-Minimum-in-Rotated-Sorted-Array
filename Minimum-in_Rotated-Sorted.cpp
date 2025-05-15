@@ -17,6 +17,6 @@ public:
 int main(){
   vector<int> nums = {3,4,5,1,2}; 
   Solution sol; 
-  cout << sol.minSearch(nums) << endl; 
+  cout <<boolalpha<< sol.minSearch(nums) << endl; 
   return 0; 
 }
